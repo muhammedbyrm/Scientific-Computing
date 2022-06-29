@@ -50,12 +50,9 @@ x = Symbol('x')
 f1 = x**3 - x - 1  #first function
 f2 = x**2 - (5**0.5)*x #second function
 
-f1_initial = 1
-f2_initial = 2
-
 
 numIter = 20
 
-newtonRaphson(f1,f1_initial,numIter)
-newtonRaphson(f2,f2_initial,numIter)
+newtonRaphson(f1,1,numIter)
+newtonRaphson(f2,2,numIter)
 
